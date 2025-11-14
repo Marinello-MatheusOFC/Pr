@@ -373,7 +373,7 @@ h3:hover {
   }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 500px) {
 
   h1 {
     font-size: 30px;
@@ -386,6 +386,7 @@ h3:hover {
   }
 
   .pai {
+    align-items: center;
     flex-direction: column;
     height: auto;
   }
@@ -425,10 +426,70 @@ h3:hover {
   }
 }
 
+@media (max-width: 397px) {
+  h1 {
+    font-size: 30px;
+    margin-top: 8px;
+  }
+
+  main {
+    height: 50dvh;
+  }
+
+  .titulo {
+    height: auto;
+    margin-bottom: 8px;
+  }
+
+  .pai {
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+  }
+
+  .texto1 {
+    width: 90%;
+    height: auto;
+    padding: 12px;
+    font-size: 15px;
+  }
+
+  #carouselExampleIndicators {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .carousel-item {
+    height: 500px;
+  }
+
+  .paicont {
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+  }
+
+  .info {
+    width: 80%;
+  }
+
+  .card1 {
+    width: 90%;
+    height: auto;
+    padding: 12px;
+    opacity: 1;
+  }
+}
+
 @media (max-width: 470px) {
   h1 {
     font-size: 30px;
     margin-top: 8px;
+  }
+
+  main {
+    height: 50dvh;
   }
 
   .titulo {
